@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Sofia Pro Regular';
+  src: url('assets/fonts/sofia-pro-cufonfonts-webfont/Sofia Pro Regular Az.woff');
+}
+
+* {
+  font-family: 'Sofia Pro Regular';
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+}
+
+span {
+  font-size: 4em;
+  font-style: normal;
+  color: black;
+}
+
+h1 {
+  font-size: 10vmin;
+  margin: 0px 0px 50px 0px;
+}
+
+h2 {
+}
+
+h3 {
+  font-size: 2.2vmax;
+  margin: 0vmin 5vmin 0vmin 5vmin;
+  text-indent: 100px;
+}
+
+img {
+  box-sizing: border-box;
+  margin: 0px 30px 30px 30px;
+  box-shadow: 10px 20px 10px gray;
+}
+.sectionBox {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  margin: 0vw 5vw 0vw 5vw;
+}
+
+.textBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  height: 100%;
+}
+
+.rowBox {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.imageBox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
